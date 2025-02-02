@@ -54,8 +54,8 @@ const InfiniteScroll = () => {
             className={`option ${index === highlightedIndex ? "highlighted" : ""}`}
             onClick={() => handleOptionClick(index)}
             animate={{
-              y: (index - highlightedIndex) * 30, // Adjust the vertical position
-              scale: index === highlightedIndex ? 1 : 1, // Scale the centered item
+              y: (index - highlightedIndex) * 30, 
+              scale: index === highlightedIndex ? 1 : 1,
               opacity:
                 index < highlightedIndex - 1 || index > highlightedIndex + 1
                   ? 0
