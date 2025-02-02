@@ -1,20 +1,12 @@
-/* .scroll-container {
+.scroll-container{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 700px; 
-  overflow: hidden;
-  position: relative;
-} */
+  justify-content: center;
+  height: 700px;
 
-.scroll-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  height: 700px; 
-  /* position: relative; */
 }
+
 
 .scroll-wrapper {
   display: flex;
@@ -29,24 +21,23 @@
 .option {
   padding: 10px 20px;
   margin: 0px 0;
-  font-size:px;
   text-align: center;
   width: 200px;
   border-radius: 8px;
   cursor: pointer;
   color: rgb(101, 97, 97);
   font-family: monospace;
-  /* transition: transform 0.5s, background 0.5s, font-size 0.5s, opacity 0.5s; */
+  transition: transform 0.5s, background 0.5s, font-size 0.5s;
   opacity: 1;
 }
 
 .highlighted {
-  background:#ebe96c;
+  background:#edeb88;
   font-family: monospace;
   color: rgb(65, 61, 61);
   font-size: 20px;
   font-weight: bold;
   /* transform: scale(1.2); */
-  padding: 15px 25px;
+  padding: 10px 15px;
   opacity: 1;
 }
